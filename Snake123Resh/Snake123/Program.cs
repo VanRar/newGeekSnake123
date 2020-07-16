@@ -1,6 +1,7 @@
 ﻿using Microsoft.CSharp.RuntimeBinder;
 using System;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace Snake123
 {
@@ -20,23 +21,26 @@ namespace Snake123
             downLine.Drow();
             leftLine.Drow();
             rightLine.Drow();
-
-
-
-            /*Point p1 = new Point(1, 3, '*');
-            p1.Draw();*/
-            
+                                   
             Point p = new Point(4, 5, '#');
-            //p2.Draw();
             Snake snake = new Snake(p, 4, Direction.RIGHT);
             snake.Drow();
+            snake.Move();
+            Thread.Sleep(300);
+            snake.Move();
+            Thread.Sleep(300);
+            snake.Move();
+            Thread.Sleep(300);
+            snake.Move();
+            Thread.Sleep(300);
+            snake.Move();
+            Thread.Sleep(300);
+            snake.Move();
+            Thread.Sleep(300);
+            snake.Move();
+            Thread.Sleep(300);
+            snake.Move();
 
-
-            /*  HorizontalLine line = new HorizontalLine(5, 10, 8, '+');
-              line.Drow();
-
-              verticalLine vert = new verticalLine(10, 15, 8, '*');
-              vert.Drow();*/
             Console.ReadLine();
         }
     }
