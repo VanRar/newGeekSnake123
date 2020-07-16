@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 namespace Snake123
@@ -9,6 +10,18 @@ namespace Snake123
         public int x;
         public int y;
         public char sym;
+
+        public Point()
+        {
+          
+        }
+
+        public Point(int _x, int _y, char _sym)
+        {
+            x = _x;
+            y = _y;
+            sym = _sym;
+        }
 
         public void Draw()
         {
