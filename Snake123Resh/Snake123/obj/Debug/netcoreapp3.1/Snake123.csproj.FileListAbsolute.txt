@@ -1,0 +1,13 @@
+C:\Users\vital\source\repos\VanRar\newGeekSnake123\Snake123Resh\Snake123\bin\Debug\netcoreapp3.1\Snake123.exe
+C:\Users\vital\source\repos\VanRar\newGeekSnake123\Snake123Resh\Snake123\bin\Debug\netcoreapp3.1\Snake123.deps.json
+C:\Users\vital\source\repos\VanRar\newGeekSnake123\Snake123Resh\Snake123\bin\Debug\netcoreapp3.1\Snake123.runtimeconfig.json
+C:\Users\vital\source\repos\VanRar\newGeekSnake123\Snake123Resh\Snake123\bin\Debug\netcoreapp3.1\Snake123.runtimeconfig.dev.json
+C:\Users\vital\source\repos\VanRar\newGeekSnake123\Snake123Resh\Snake123\bin\Debug\netcoreapp3.1\Snake123.dll
+C:\Users\vital\source\repos\VanRar\newGeekSnake123\Snake123Resh\Snake123\bin\Debug\netcoreapp3.1\Snake123.pdb
+C:\Users\vital\source\repos\VanRar\newGeekSnake123\Snake123Resh\Snake123\obj\Debug\netcoreapp3.1\Snake123.csprojAssemblyReference.cache
+C:\Users\vital\source\repos\VanRar\newGeekSnake123\Snake123Resh\Snake123\obj\Debug\netcoreapp3.1\Snake123.AssemblyInfoInputs.cache
+C:\Users\vital\source\repos\VanRar\newGeekSnake123\Snake123Resh\Snake123\obj\Debug\netcoreapp3.1\Snake123.AssemblyInfo.cs
+C:\Users\vital\source\repos\VanRar\newGeekSnake123\Snake123Resh\Snake123\obj\Debug\netcoreapp3.1\Snake123.csproj.CoreCompileInputs.cache
+C:\Users\vital\source\repos\VanRar\newGeekSnake123\Snake123Resh\Snake123\obj\Debug\netcoreapp3.1\Snake123.dll
+C:\Users\vital\source\repos\VanRar\newGeekSnake123\Snake123Resh\Snake123\obj\Debug\netcoreapp3.1\Snake123.pdb
+C:\Users\vital\source\repos\VanRar\newGeekSnake123\Snake123Resh\Snake123\obj\Debug\netcoreapp3.1\Snake123.genruntimeconfig.cache
