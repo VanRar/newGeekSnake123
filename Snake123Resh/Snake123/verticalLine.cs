@@ -4,26 +4,17 @@ using System.Text;
 
 namespace Snake123
 {
-    class verticalLine
+    class verticalLine : Figure
     {
-        List<Point> vList;
-        public verticalLine(int yLeft, int yRight, int x, char sym)
+        public verticalLine(int yUp, int yDown, int x, char sym)
         {
-            vList = new List<Point>();
-            for (int y = yLeft; y <= yRight; y++)
+            pList = new List<Point>();
+            for (int y = yUp; y <= yDown; y++)
             {
-                Point v = new Point(x, y, sym);
-                vList.Add(v);
+                Point p = new Point(x, y, sym);
+                pList.Add(p);
             }
 
-        }
-
-        public void Drow()
-        {
-            foreach (Point v in vList)
-            {
-                v.Draw();
-            }
         }
     }
 }
