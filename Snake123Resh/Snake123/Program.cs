@@ -14,19 +14,13 @@ namespace Snake123
             Point p2 = new Point(4, 5, '#');
             p2.Draw();
 
-            List<int> numList = new List<int>();
-            numList.Add(0);
-            numList.Add(1);
-            numList.Add(2);
+           
+            HorizontalLine line = new HorizontalLine(5, 10, 8, '+');
+            line.Drow();
 
-            int x = numList[0];
-            int y = numList[1];
-            int z = numList[2];
+            verticalLine vert = new verticalLine(10, 15, 8, '*');
+            vert.Drow();
 
-            foreach(int i in numList)
-            {
-                Console.WriteLine(i);
-            }
         }
     }
 }
