@@ -1,26 +1,26 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
 
-namespace Snake123
+namespace Snake
 {
     class Point
     {
+        //private int x;
+        //private int y;
+        // Временно делаем поля открытыми
         public int x;
         public int y;
-        public char sym;
+        private char sym;
 
         public Point()
         {
-          
+
         }
 
-        public Point(int _x, int _y, char _sym)
+        public Point(int x, int y, char sym)
         {
-            x = _x;
-            y = _y;
-            sym = _sym;
+            this.x = x;
+            this.y = y;
+            this.sym = sym;
         }
 
         public void Draw()
